@@ -44,5 +44,6 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
 ---
 payload map ($)]]></dw:set-payload>
         </dw:transform-message>
+        <set-property propertyName="Content-Type" value="application/json" doc:name="Set content type"/>
     </flow>
 </mule>
